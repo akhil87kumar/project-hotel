@@ -1,0 +1,159 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.piccrop{
+    height: 480px;
+    overflow: hidden;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 30px;
+    font-size:40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading2{
+    text-align: center;
+    font-size:25px;
+    font-weight: bold;
+    color: rgb(233 129 79);
+}
+
+.slideabout{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 35px;
+    padding: 30px;
+    height: max-content;
+}
+
+.parabout{
+    width: 500px;
+    height: max-content;
+    font-size: 21px;
+}
+
+.parabout p{
+    padding: 5px;
+}
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(247 241 229);
+    height:max-content;
+}
+
+.row2col1{
+    
+    width: 300px;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-right: 5px solid rgb(233 129 79);
+
+}
+
+.row2col1 h1{
+    font-size: 35px;
+}
+
+.row2col2{
+    width: 600px;
+    height: max-content;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: flex-end; */
+    padding-left:30px ;
+    
+}
+
+
+.foot{
+    background-image: url("/aboutimg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:max-content;
+}
+
+.finter{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.finter h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finter h3{
+    color: rgb(245, 91, 20);
+    font-size: 23px;
+    text-align: center;
+}
+.finter p{
+    color: white;
+    font-weight: bold;
+    width: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 20px;
+    text-align: center;
+}
+
+.para{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    font-size: 18px;
+    padding-bottom:150px;
+    gap: 30px;
+}
+
+.icons span{
+    line-height:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ico{
+    margin-right: 5px;
+}
+
+.efctpara{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.piccrop{
+    height: 480px;
+    overflow: hidden;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: max-content;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.conta{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid black; */
+    width: 420px;
+    height: max-content;
+    padding: 5px;
+}
+
+
+@media (max-width:425px){
+    .conta{
+        width: 100%;
+    }
+
+    .psize{
+        font-size: 23px !important;
+    }
+}
+
+.conta h1{
+    font-size: 50px;
+}
+
+.conta p{
+    font-size: 25px;
+}
+
+.conta p span{
+    font-weight: bold;
+}
+
+
+
+
+.mapcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 450px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: relative;
+}
+
+.mapcontainer iframe{
+    width: 100%;
+    height:100%;
+
+}
+
+.message{
+    height: max-content;
+    width: 100%;
+    background-image: url("./Form.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+
+}
+
+
+.message h1{
+    color:white ;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.message p{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+}
+
+.lastsec{
+    margin-top:30px ;
+    margin-bottom: 30px;
+}
+
+.lastcon{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: max-content;
+}
+
+.lastsec h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lastcon div{
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.lastcon div img{
+    width: 300px;
+    height: 300px;
+    transition: all 0.4s ease;
+}
+
+.lastcon div img:hover{
+    transform: scale(1.1);
+}
+
+.lastcon1{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: max-content;
+    padding-left: 45px;
+}
+
+.lastcon1 div{
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.lastcon1 div img{
+    width: 300px;
+    height: 300px;
+    transition: all 0.4s ease;
+}
+
+.lastcon1 div img:hover{
+    transform: scale(1.1);
+}

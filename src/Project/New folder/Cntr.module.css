@@ -1,0 +1,85 @@
+*{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.container{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/008/014/115/non_2x/tropical-leaves-background-design-summer-leaves-flat-illustration-simple-banner-with-copy-space-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+
+
+.headist{
+    text-align: center;
+    font-family: "Inter Fallback";
+    font-size: 48px;
+    padding: 10px;
+}
+
+.head2nd{
+    text-align: center;
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(233 129 79);
+}
+
+
+.about{
+    height:max-content;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.para{
+    /* border: 1px solid green; */
+    height: max-content;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 22px;
+}
+
+.para button{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    width: 170px;
+    background-color: rgb(243 202 62);
+    border-style:none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para a{
+    text-decoration: none;
+}
+
+@media (max-width:1000px){
+    .para{
+        gap: 20px;
+    }
+}
+
+.para button:hover{
+    background-color: rgb(233, 197, 80) ;
+}

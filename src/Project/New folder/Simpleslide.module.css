@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.images{
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 700px;
+}
+
+@media (max-width:1000px){
+    .images{
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+
+    
+
+
+
+.picsd img{
+      height: 500px;
+      width: 100%;
+      
+}
+
